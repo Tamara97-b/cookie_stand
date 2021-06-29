@@ -303,7 +303,7 @@ function shop(shopName, min, max, avg) {
     this.avgCookiePerCustomer = avg;
     this.shopName = shopName;
     this.total = 0;
-   // this.list = this.generateList();
+   
 
    this.workhour = [
     '6am',
@@ -379,11 +379,7 @@ var Dubai = new shop('Dubai', 23, 65, 6.5);
 var Paris = new shop('Paris', 23, 65, 6.5);
 var Lima = new shop('Lima', 23, 65, 6.5);
 
-//   document.body.appendChild(seattle.getHtml());
-//   document.body.appendChild(Tokyo.getHtml());
-//   document.body.appendChild(Dubai.getHtml());
-//   document.body.appendChild(Paris.getHtml());
-//   document.body.appendChild(Lima.getHtml());
+
 
 var table = document.createElement('table');
 var header = [
