@@ -439,3 +439,15 @@ tableContent += footer;
 table.innerHTML = tableContent;
 
 document.body.appendChild(table);
+
+const userform = document.getElementById "form";
+userform.addEventListner('submit',handleSubmit)
+function (event){
+    event.preventDefault();
+    const newLocation = event.target.location.value;
+    const newminCustomer = event.target.newminCustomer .value;
+    const newmaxCustomer = event.target.newmaxCustomer .value;
+    const newavgCookie = event.target.newmaxCookie .value;
+
+}
+
