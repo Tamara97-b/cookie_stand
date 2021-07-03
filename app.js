@@ -440,14 +440,21 @@ table.innerHTML = tableContent;
 
 document.body.appendChild(table);
 
-const userform = document.getElementById "form";
-userform.addEventListner('submit',handleSubmit)
-function (event){
-    event.preventDefault();
-    const newLocation = event.target.location.value;
-    const newminCustomer = event.target.newminCustomer .value;
-    const newmaxCustomer = event.target.newmaxCustomer .value;
-    const newavgCookie = event.target.newmaxCookie .value;
+// const userform = document.getElementById ("form");
+// userform.addEventListner('submit',handleSubmit);
+// function handleSubmit (event){
+//     event.preventDefault();
+//     const newLocation = event.target.location.value;
+// console.log(new.location);
+//     const newminCustomer = event.target.newminCustomer .value;
+// console.log(newminCustomer);
+//     const newmaxCustomer = event.target.newmaxCustomer .value;
+// console.log(newmaxCustomer);
+//     const newavgCookie = event.target.newmaxCookie .value;
+// console.log(newavgCookie);
+// const newsalmon = new 
+// }
 
-}
+
+
 

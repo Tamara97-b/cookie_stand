@@ -1,4 +1,67 @@
+/* * {
+    background-color: burlywood
+} */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
 
+ 
+  
+  #form {
+    border-radius: 25px;
+    background: #fdb5ff;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+    color: rgb(15, 14, 17);
+  }
 
+  
+  h1  {
+    font-family:'Zilla Slab Highlight', cursive;
+   }
+
+  h3  {
+    font-family:'Zilla Slab Highlight', cursive;}
+  
+  #rcorners3 {
+    border-radius: 25px;
+    background: #111213;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+    color: rgb(0, 255, 213);
+}
     
+    a:link, a:visited {
+        background-color: #1100ff;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+
+      }
+      
+      a:hover, a:active {
+        background-color: rgb(5, 255, 242);
+      }
+
+      body {
+       background-color: rgb(206, 218, 255);
+       
+      }
+
+      p{
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(15, 19, 24);
+font-weight: bold;
+
+      }
+
+   .tam{
+       font-size: larger;
+       color: crimson;
+   } 
     
